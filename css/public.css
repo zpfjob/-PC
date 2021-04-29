@@ -1,0 +1,85 @@
+/* 初始化原有样式 start */
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none
+}
+
+b {
+	font-weight: normal;
+}
+
+em,i {
+	font-style: normal;
+}
+
+body{
+    min-width: 1200px;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	position: relative;
+}
+
+/* input,button,select{outline: none;background:none;border:none;} */
+button {
+	cursor: pointer;
+}
+
+img {
+	border: none;
+}
+
+input {
+	background: none;
+	outline: none;
+	border: none;
+}
+
+.lf {
+	float: left
+}
+
+.rf {
+	float: right
+}
+
+.clearfix:after {
+	content: "\20";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix {
+	display: block;
+}
+
+/* 初始化原有样式 end */
+
+.pannel {
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-origin: border-box;
+	overflow: hidden;
+	position: relative;
+}
+
+/* 安全区域 start*/
+.public-container {
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+}
+
+/* 安全区域 end*/
